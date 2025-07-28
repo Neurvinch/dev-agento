@@ -29,9 +29,10 @@ app.post('/api/ask', async (req,res) => {
 
             content : message
           }
-        ]
+        ] ,
+        temperature: 0.7 ,
         
-      })
+      });
         
     } catch (error) {
         
