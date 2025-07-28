@@ -33,6 +33,8 @@ app.post('/api/ask', async (req,res) => {
         temperature: 0.7 ,
         
       });
+
+      res.json({ reply : response.choices[0].message.content})
         
     } catch (error) {
         
