@@ -38,5 +38,8 @@ app.post('/api/ask', async (req,res) => {
         
     } catch (error) {
         
+      console.error(error);
+
+      res.status(500).json({ error: 'An error occurred while processing your request.' });
     }
 })
