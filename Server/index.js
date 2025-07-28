@@ -15,7 +15,10 @@ app.post('/api/ask', async (req,res) => {
     const {message} = req.body;
 
     try {
-
+      const response = await openai.chat.completions.create({
+        model: 'gpt-4o' ,
+        
+      })
         
     } catch (error) {
         
