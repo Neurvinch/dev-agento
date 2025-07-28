@@ -22,7 +22,7 @@ app.post('/api/ask', async (req,res) => {
           {
             role: 'system' ,
 
-            content : ''
+            content : `You are DevAgent, a senior software engineer. Explain, debug, and write code.`
           }
         ]
         
