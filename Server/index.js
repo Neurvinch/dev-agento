@@ -43,7 +43,7 @@ app.post('/api/ask', async (req,res) => {
       res.status(500).json({ error: 'An error occurred while processing your request.' });
     }
 })
-
+  
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
