@@ -5,8 +5,10 @@
     const [input , setInput] = useState('');
     const [messages, setMessages] = useState([]);
       
-    
-
+     const handleSend = () => {
+        
+     }
+  
 
     return (
       <div>Chat</div>
