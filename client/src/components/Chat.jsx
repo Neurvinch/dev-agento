@@ -6,7 +6,9 @@
     const [messages, setMessages] = useState([]);
       
      const handleSend = async () => {
+         if (!input.trim()) return; // Prevent sending empty messages
 
+         
      }
   
 
