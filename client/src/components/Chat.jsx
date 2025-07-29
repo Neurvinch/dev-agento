@@ -12,6 +12,8 @@
          const userMessage = { role: 'user', content : input};
         
          setMessages( prev => [...prev,userMessage]);
+
+         setInput('');
      }
   
 
