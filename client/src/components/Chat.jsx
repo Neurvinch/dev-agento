@@ -7,8 +7,10 @@
       
      const handleSend = async () => {
          if (!input.trim()) return; // Prevent sending empty messages
+   
 
-         
+         const userMessage = { role: 'user', content : input};
+
      }
   
 
