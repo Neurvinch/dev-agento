@@ -14,8 +14,19 @@
          setMessages( prev => [...prev,userMessage]);
 
          setInput('');
+
+
+           try {
+
+        const res =  awai
+        
+     } catch (error) {
+        
      }
   
+     }  
+
+   
 
     return (
       <div>Chat</div>
