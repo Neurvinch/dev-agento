@@ -6,7 +6,10 @@ function App() {
  
   return (
     <>
-      
+      <div>
+        <h1> DevAgent</h1>
+        <Chat/>
+      </div>
     </>
   )
 }
