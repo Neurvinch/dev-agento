@@ -49,6 +49,7 @@
   <input
   
      value={input}
+     onChange={(e) => e.key === 'Enter' && handleSend()}
   />
       <div>
 
