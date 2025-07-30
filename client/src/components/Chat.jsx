@@ -52,7 +52,7 @@
      onChange={(e) => e.key === 'Enter' && handleSend()}
   />
       <div>
-
+        <button />
       </div>
 
       </div>
