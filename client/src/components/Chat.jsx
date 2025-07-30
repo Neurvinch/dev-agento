@@ -39,7 +39,8 @@
     return (
       <div>
          {messages.map(() => (
-          
+          <>
+          </>
          )) }
 
       </div>
