@@ -37,7 +37,12 @@
    
 
     return (
-      <div>Chat</div>
+      <div>
+         {messages.map(() => (
+          
+         )) }
+
+      </div>
     )
   }
   
