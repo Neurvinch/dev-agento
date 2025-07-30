@@ -38,8 +38,9 @@
 
     return (
       <div>
-         {messages.map(() => (
+         {messages.map((msg, index) => (
           <>
+          <strong>{msg}</strong>
           </>
          )) }
 
