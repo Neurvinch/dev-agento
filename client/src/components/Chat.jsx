@@ -1,4 +1,7 @@
   import React, { useState } from 'react'
+
+  import axios from 'axios';
+
   
   const Chat = () => {
 
@@ -18,7 +21,7 @@
 
            try {
 
-        const res =  awai
+        const res =  await 
         
      } catch (error) {
         
