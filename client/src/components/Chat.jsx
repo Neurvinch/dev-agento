@@ -46,7 +46,10 @@
          )) }
 
       </div>
-
+  <input
+  
+     value={input}
+  />
       <div>
 
       </div>
