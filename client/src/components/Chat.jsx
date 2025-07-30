@@ -38,11 +38,18 @@
 
     return (
       <div>
+      <div>
          {messages.map((msg, index) => (
           <>
           <strong>{msg.role === 'user' ? 'You' : 'DevAgent'}:</strong> {msg.content}
           </>
          )) }
+
+      </div>
+
+      <div>
+
+      </div>
 
       </div>
     )
