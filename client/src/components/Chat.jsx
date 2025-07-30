@@ -29,7 +29,7 @@
          
         setMessages(prev => [...prev, botReply] );
      } catch (error) {
-        
+         console.error(error);
      }
   
      }  
