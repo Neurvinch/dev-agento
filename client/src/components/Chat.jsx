@@ -21,7 +21,11 @@
 
            try {
 
-        const res =  await axios.post()
+        const res =  await axios.post('http;//localhost:5000/api/ask', {
+          message : input
+        });
+
+        
         
      } catch (error) {
         
