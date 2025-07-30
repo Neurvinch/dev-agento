@@ -27,6 +27,7 @@
 
         const botReply = {role: 'agent' , content : res.data.reply};
          
+        setMessages(prev => [...prev, botReply] );
 
         
         
