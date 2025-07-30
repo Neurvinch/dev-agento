@@ -25,6 +25,9 @@
           message : input
         });
 
+        const botReply = {role: 'agent' , content : res.data.reply};
+        
+
         
         
      } catch (error) {
